@@ -1,2 +1,7 @@
-# MemoryPlatformGame_Unity
-This is a small experimental game about memory and orientation. The player must reach the finish while the environment periodically switches between light and dark spikes, so the player has to rely on memory. The game includes teleport, hidden mechanics, and an additional ending, encouraging exploration and learning through repetition 
+This is a small experimental game focused on memory and spatial awareness. The main goal of the game is to move the player from the starting point to the green finish circle. The player controls the character using the keyboard and must navigate through the level while the environment periodically switches between light and darkness.
+
+When the light is on, the player can observe the level layout, walls, traps, and other important elements. When the light turns off, some elements become invisible, forcing the player to rely on memory to continue moving in the correct direction. Red spike traps reset the player back to the starting position when touched. The game also includes teleports that can help the player skip parts of the level, some of which are hidden and only visible during light.
+
+Reaching the finish triggers a victory state where a message is displayed. After a short delay, the player is returned to the start, but the player can also restart immediately by pressing the L key. Additionally, there is a hidden teleport that leads to a secret scene called the “Poop Ending.” After spending a short amount of time in this scene, the player is automatically returned to the main level.
+
+The game was developed using the Unity Engine in 2D. All visuals are created using simple geometric shapes, and all functionality is implemented through custom C# scripts. Only built-in Unity components and standard UI elements were used, without any external assets or third-party libraries. Enjoy! 🍎
